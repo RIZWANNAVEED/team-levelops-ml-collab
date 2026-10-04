@@ -1,0 +1,20 @@
+# Project Report: MLOps Collaboration
+
+## Team Members & Roles
+* Rizwan Naveed BCSF22M546 – Solo Developer (Data Owner, Model Owner, and Platform Owner)
+
+## Dataset Source
+* Dataset: Wine Quality Dataset (wine.csv)
+* Source: Tracked and versioned using DVC with remote storage via DagsHub.
+
+## Completed Work (Phases 1–5)
+* Phases 1 & 2: Initialized the project repository structure, configured environment management, and added dependencies using uv.
+* Phase 3: Implemented strict code quality and security tools, configuring Ruff linting and Pre-commit hooks.
+* Phase 4: Implemented DVC data version control to track the raw dataset files remotely.
+* Phase 5: Created the exploratory data analysis notebook (notebooks/01-eda.ipynb), paired it with a version-controlled companion script via Jupytext, extracted a reusable cleaning function (src/features.py), and verified it with passing unit tests (tests/test_features.py).
+
+## Incomplete Sections
+* Phases 6–9: The automated DVC training pipeline, experiment variations, CI/CD GitHub workflows, and release tagging were left incomplete due to strict time constraints.
+
+## Individual Contributions
+* Rizwan Naveed: Solely managed all project requirements, including repository configuration, pre-commit hook implementation, DVC remote data tracking, and the EDA notebook architecture.
